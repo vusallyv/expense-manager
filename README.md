@@ -47,15 +47,40 @@
   ```
   POST /api/expenses/
   ```
+  **Request Body:**
+  ```json
+  {
+    "user": <user_id>,
+    "title": "Some title",
+    "amount": "100.0",
+    "date": "2024-11-22",
+    "category": "Travel"
+  }
+  ```
 
 - **Update an existing expense:**
   ```
   PUT /api/expenses/{id}/
   ```
+  **Request Body:**
+  ```json
+  {
+    "amount": "150.0",
+    "title": "Updated title",
+    "category": "Food",
+    "date": "2023-10-02"
+  }
+  ```
 
 - **Partially update an existing expense:**
   ```
   PATCH /api/expenses/{id}/
+  ```
+  **Request Body:**
+  ```json
+  {
+    "amount": "120.0"
+  }
   ```
 
 - **Delete an expense:**
