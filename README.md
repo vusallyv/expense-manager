@@ -4,8 +4,8 @@
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone git@github.com:vusallyv/expense-manager.git
+   cd expense-manager
    ```
 
 2. **Create and activate a virtual environment:**
