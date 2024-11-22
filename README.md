@@ -19,6 +19,8 @@
    pip install -r requirements.txt
    ```
 
+3. **Create .env file from .env_example file.**
+
 4. **Apply database migrations:**
    ```sh
    python manage.py migrate
